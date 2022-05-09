@@ -9,6 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MVC_MVP_MVVM_Project">
+
+        <activity
+            android:name=".mvvm.MVVMActivity"
+            android:label="MVVM"
+            android:exported="false" />
+
         <activity
             android:name=".mvp.MVPActivity"
             android:label="MVP"
